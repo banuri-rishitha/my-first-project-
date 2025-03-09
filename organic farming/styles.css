@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Playfair Display, serif;
+    background-color: #f9f9f9;
+    color: #333;
+font-size: 30px;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    font-size: 30px;
+    background-image: url('header-C:\Users\koush\Documents\farming\image.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: right;   
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-image: url('C:\Users\koush\Documents\farming\image.jpeg'); 
+    background-size: cover;
+    background-position: left;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: bold;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #45a049;
+}
+
+main {
+    margin: 30px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+h1 {
+font-weight: bold;
+font-size: 50px;
+text-align:center;
+text-transform: uppercase;
+}
+
+p {
+font-style: italic;
+}
+
+
+h2 {
+font-size: 40px;
+}
+
+h3 {
+font-size: 40px;
+}
+.imgMain {
+display:block;
+margin-left:auto;
+marfin-right:auto;
+}
